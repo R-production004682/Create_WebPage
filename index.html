@@ -7,7 +7,7 @@
         <link href="style.css" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Brygada+1918:ital,wght@0,400..700;1,400..700&family=Cormorant:ital,wght@0,300..700;1,300..700&family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Brygada+1918:ital,wght@0,400..700;1,400..700&family=Cinzel:wght@400..900&family=Cormorant:ital,wght@0,300..700;1,300..700&family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet"> 
     </head>
 <body>
@@ -31,9 +31,10 @@
                 <div class="nav-items">
                 <a href="#">Home</a>
                 <a href="#"><span>01.</span>About</a>
-                <a href="#"><span>02.</span>Books</a>
-                <a href="#"><span>03.</span>Testimonials</a>
-                <a href="#"><span>04.</span>Contact</a>
+                <a href="#"><span>02.</span>Production</a>
+                <a href="#"><span>03.</span>Team Production</a>
+                <a href="#"><span>04.</span>Self Introduction</a>
+                <a href="#"><span>05.</span>Contact</a>
                 </div>
             </div>
         </nav>
@@ -42,6 +43,7 @@
 
         <!--Header-->
         <header>
+            <canvas id="canvas"></canvas>
             <!--Logo-->
             <a href="index.html" class="logo">
                 <span>Contents</span>
@@ -57,6 +59,176 @@
             <!--End of Banner-->
         </header>
         <!--End of Header-->
+
+        <!--About-->
+        <section class="about">
+            <div class="about-content">
+                <div class="about-content-left">
+                    <div class="section-num">
+                        <span>01</span>
+                    </div>
+                    <button class="main-btn">
+                        <a href="#">Explore</a>
+                    </button>
+                </div>
+                <div class="about-content-right">
+                    <h4 class="section-heading-sm">About Me</h4>
+                    <h1 class="section-heading-lg">Who Are Me?</h1>
+                    <div class="section-border"></div>
+                        <p>初めに、ポートフォリオをご閲覧くださりありがとうございます。<br>
+                            ゲームプログラマ兼サーバーエンジニアの桑折 怜輔です。</p>
+
+                        <p>私はゲームプログラマとして、世界的な市場価値を持つプロフェッショナルになることを目指し、日々開発に取り組んでいます。<br>
+                        元々フロントエンド開発が得意でしたが、<br>
+                        バックエンドのスキルも身につけたいと考え、4月からゲームのサーバー会社に入社しました。<br>
+                        これからも努力を怠らず、より優れたプログラマに成長していきます。<br>
+                        また、エンターテイナーとしての心得を忘れず、ユーザーに最高の物語を提供することを心がけます。</p>
+                        <p>
+                        さらに、必須スキルや業界で用いられる言語にとどまらず、<br>
+                        積極的に新しい技術や言語に挑戦し、その柔軟性と汎用性を高めて、<br>
+                        必要な時に適切に最高品質で対応できる高度なプログラマとなることも同時に目指しています。</p>
+                </div>
+            </div>
+        </section>
+        <!--End of About-->
+
+        <!--Products-->
+        <section class="productions">
+            <div class="production-content">
+                <div class="production-top">
+                    <div class="production-header">
+                        <h4 class="section-heading-sm">Prodaction</h4>
+                        <h1 class="section-heading-lg">The Recent Works</h1>
+                        <div class="section-border"></div>
+                    </div>
+                    <div class="section-num">
+                        <span>02</span>
+                    </div>
+                </div>
+
+                <p>最近作成した作品を掲載しています。<br>
+                画像をクリックすることで、Youtubeへジャンプします。ぜひご覧ください。</p>
+
+                <!--作品を差し替えるときに変更するところ。画像データを差し込んで、作品名を記載するだけ-->
+                <div class="production-list">
+                    <div class="production">
+                        <a href="https://youtu.be/WUVV35t4Oc4" target="_blank">
+                        <img src="image/UnrealEngine-Work.png" alt="Unreal Engineで作成したソウルライクゲーム" target = "_blank"></a>
+                        <span class="production-name">Frozen Fate</span>
+                        <span class="production-line"></span>
+                        <span class="production-author">By Kori Ryosuke</span>
+                    </div>
+
+                <div class="production">
+                    <img src="image/UnrealEngine-Work.png" alt="Unreal Engineで作成したソウルライクゲーム">
+                    <span class="production-name">Frozen Fate</span>
+                    <span class="production-line"></span>
+                    <span class="production-author">By Kori Ryosuke</span>
+                </div>
+
+                <div class="production">
+                    <img src="image/UnrealEngine-Work.png" alt="Unreal Engineで作成したソウルライクゲーム">
+                    <span class="production-name">Frozen Fate</span>
+                    <span class="production-line"></span>
+                    <span class="production-author">By Kori Ryosuke</span>
+                </div>
+            </div>
+                <!--ここまで-->
+
+            <button class="main-btn">
+                <a href="#">View all</a></button>
+
+            </div>
+        </section>
+        <!--End of Products-->
+
+
+ <!--TeamProducts-->
+ <section class="productions">
+    <div class="production-content">
+        <div class="production-top">
+            <div class="production-header">
+                <h4 class="section-heading-sm">Team Prodaction</h4>
+                <h1 class="section-heading-lg">The Recent Works</h1>
+                <div class="section-border"></div>
+            </div>
+            <div class="section-num">
+                <span>03</span>
+            </div>
+        </div>
+
+        <p>チームで開発した作品を一部掲載しています。<br>
+        画像をクリックすることで、Youtubeへジャンプします。ぜひご覧ください。</p>
+
+        <!--作品を差し替えるときに変更するところ。画像データを差し込んで、作品名を記載するだけ-->
+        <div class="production-list">
+            <div class="production">
+                <a href="https://youtu.be/WUVV35t4Oc4" target="_blank">
+                <img src="image/UnrealEngine-Work.png" alt="Unreal Engineで作成したソウルライクゲーム" target = "_blank"></a>
+                <span class="production-name">Frozen Fate</span>
+                <span class="production-line"></span>
+                <span class="production-author">By 作者名</span>
+            </div>
+
+        <div class="production">
+            <img src="image/UnrealEngine-Work.png" alt="Unreal Engineで作成したソウルライクゲーム">
+            <span class="production-name">Frozen Fate</span>
+            <span class="production-line"></span>
+            <span class="production-author">By 作者名</span>
+        </div>
+
+        <div class="production">
+            <img src="image/UnrealEngine-Work.png" alt="Unreal Engineで作成したソウルライクゲーム">
+            <span class="production-name">Frozen Fate</span>
+            <span class="production-line"></span>
+            <span class="production-author">By 作者名</span>
+        </div>
+    </div>
+        <!--ここまで-->
+
+    <button class="main-btn">
+        <a href="#">View all</a></button>
+
+    </div>
+</section>
+<!--End of TeamProducts-->
+
+<!--Self Introduction-->
+<section class="self-introduction">
+    <div class="self-introduction-top">
+        <div class="section-num">
+            <span>04</span>
+        </div>
+        <div class="self-introduction-header">
+            <h4 class="section-heading-sm">Author</h4>
+            <h1 class="section-heading-lg">Background</h1>
+            <div class="section-border"></div>
+        </div>
+    </div>
+    <div class="name">
+        <div class="name-top">
+            <img src="image/image.png">
+            <div class="name-heading">
+                <h2><span>桑折 怜輔(こおり りょうすけ)</span></h2>
+            </div>
+        </div>
+        <p>宮城県仙台市出身の2002年4月21日生まれ。<br>
+        バンタンゲームアカデミー東京校 VRクリエイター総合科21年Aクラス卒業。<br>
+        卒業制作展示会に個人製作作品を、VRクリエイター総合科創設以来初めて提出した実績や、<br>
+        TokyoGameShowにも出た実績があります。<br>
+        ゲームプログラミング歴3年で、Unity , UnrealEngine , CryEngineなど、幅広いゲームエンジンが使えます。<br>
+        それに付随して、C , C# ,C++ , Java , JavaScript , HTML , CSS , Linux , MySQL , Processing , Blueprintなど、<br>
+        多数の言語を扱い、幅広い知見とチェレンジ精神を武器にしています。<br>
+        また、2022年後半から2024年2月末まで株式会社Cygamesに在籍しており、<br>
+        アプリの運営に携わっていました。<br>
+        2024年4月には、株式会社シンクロジックにゲームサーバーのバックエンドプログラマとして入社します。</p>
+    </div>
+    <button class="main-btn">
+        <a href="#">Learn More</a>
+    </button>
+</section>
+<!--End of Self Introduction-->
+
     </div>
     <!--End of Container-->
     <script src="script.js"></script>
