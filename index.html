@@ -11,6 +11,11 @@
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet"> 
     </head>
 <body>
+    <div id="mouse-stalker"></div>
+
+    <!--背景アニメーション-->
+
+</div>
     <!--Container-->
     <div class="content">
         <!--Navigation-->
@@ -29,12 +34,12 @@
             </div>
             <div class="nav-right">
                 <div class="nav-items">
-                <a href="#">Home</a>
-                <a href="#"><span>01.</span>About</a>
-                <a href="#"><span>02.</span>Production</a>
-                <a href="#"><span>03.</span>Team Production</a>
-                <a href="#"><span>04.</span>Self Introduction</a>
-                <a href="#"><span>05.</span>Contact</a>
+                <a href="index.html">Home</a>
+                <a href="about.html"><span>01.</span>About</a>
+                <a href="Production.html"><span>02.</span>Production</a>
+                <a href="Production.html"><span>03.</span>Team Production</a>
+                <a href="SelfIntroduction.html"><span>04.</span>Self Introduction</a>
+                <a href="#contact"><span>05.</span>Contact</a>
                 </div>
             </div>
         </nav>
@@ -68,7 +73,7 @@
                         <span>01</span>
                     </div>
                     <button class="main-btn">
-                        <a href="#">Explore</a>
+                        <a href="about.html">Explore</a>
                     </button>
                 </div>
                 <div class="about-content-right">
@@ -208,29 +213,82 @@
     <div class="name">
         <div class="name-top">
             <img src="image/image.png">
-            <div class="name-heading">
-                <h2><span>桑折 怜輔(こおり りょうすけ)</span></h2>
-            </div>
-        </div>
-        <p>宮城県仙台市出身の2002年4月21日生まれ。<br>
-        バンタンゲームアカデミー東京校 VRクリエイター総合科21年Aクラス卒業。<br>
-        卒業制作展示会に個人製作作品を、VRクリエイター総合科創設以来初めて提出した実績や、<br>
-        TokyoGameShowにも出た実績があります。<br>
-        ゲームプログラミング歴3年で、Unity , UnrealEngine , CryEngineなど、幅広いゲームエンジンが使えます。<br>
-        それに付随して、C , C# ,C++ , Java , JavaScript , HTML , CSS , Linux , MySQL , Processing , Blueprintなど、<br>
-        多数の言語を扱い、幅広い知見とチェレンジ精神を武器にしています。<br>
-        また、2022年後半から2024年2月末まで株式会社Cygamesに在籍しており、<br>
-        アプリの運営に携わっていました。<br>
-        2024年4月には、株式会社シンクロジックにゲームサーバーのバックエンドプログラマとして入社します。</p>
     </div>
+
+    <div class="name-heading">
+        <h2><span>桑折 怜輔(こおり りょうすけ)</span></h2>
+
+    <p>宮城県仙台市出身の2002年4月21日生まれ。<br>
+    バンタンゲームアカデミー東京校 VRクリエイター総合科21年Aクラス卒業。<br>
+    卒業制作展示会に個人製作作品を、VRクリエイター総合科創設以来初めて出展した実績や、<br>
+    TokyoGameShowにも出た実績があります。<br>
+    ゲームプログラミング歴3年で、Unity , UnrealEngine , CryEngineなど、幅広いゲームエンジンが使えます。<br>
+    それに付随して、C , C# ,C++ , Java , JavaScript , HTML , CSS , Linux , MySQL , Processing , Blueprintなど、<br>
+    多数の言語を扱い、幅広い知見とチェレンジ精神を武器にしています。<br>
+    また、2022年後半から2024年2月末まで株式会社Cygamesに在籍しており、<br>
+    アプリの運営に携わっていました。<br>
+    2024年4月には、株式会社シンクロジックにゲームサーバーのバックエンドプログラマとして入社します。</p>
+</div>
+
     <button class="main-btn">
         <a href="#">Learn More</a>
     </button>
 </section>
 <!--End of Self Introduction-->
 
+
+<!--Footer-->
+<footer>
+    <div class="footer-header">
+        <h4 class="section-heading-sm">Get in Touch</h4>
+        <h1 class="section-heading-lg">Contact Me</h1>
+        <div class="section-border"></div>
     </div>
-    <!--End of Container-->
-    <script src="script.js"></script>
+    <div class="footer-contact">
+        <div class="footer-social">
+            <div class="address">
+            <div>
+                <i class="fa-regular fa-envelope"></i>
+                <span>Address</span>
+            </div>
+            <p class="address-par">
+                <span>〒231-0056</span>
+                <span>神奈川県</span>
+                <span>横浜市中区</span>
+                <span>若葉町1丁目2-2</span>
+                <span>エステムプラザ横濱関内 504号室</span>
+            </p>
+            </div>
+            <p class="social-media">
+                Mail : Ryousuke004682@gmail.com <br>
+                Githab : https://github.com/Ryosuke004682 <br>
+                Notion : https://rproduction.notion.site/Portfolio-a6fd83cc9c9748b6a9b8eee12c67e083?pvs=4 <br>
+            </p>
+        </div>
+    <div class="footer-form">
+        <form>
+            <div class="input-group">
+                <input type="text" placeholder="NAME">
+                <input type="email" placeholder="EMAIL">
+                <input type="text" placeholder="PHONE">
+                <input type="text" placeholder="ADDRESS">
+            </div>
+            <textarea placeholder="MESSAGE"></textarea>
+            <button type="button">DONE</button>
+        </form>
+    </div>
+</div>
+<div class="footer-bottom">
+    <p>&copy;R_Production.All Rights Reserved</p>
+    <button type="button">
+        <a href="#">Back to top<i class="fa-solid fa-chevron-up"></i></a>
+    </button>
+</div>
+</footer>
+<!--End of Footer-->
+</div>
+<!--End of Container-->
+
+<script src="script.js"></script>
 </body>
 </html>
