@@ -1,0 +1,113 @@
+/*About*/
+.about-header{
+    background: linear-gradient(rgba(33,33,33,0.9) , rgba(33,33,33,0.7)), 
+    url(image/about-bg.jpg)center no-repeat;
+}
+
+.about-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15rem 0;
+}
+/*End of About*/
+
+/*About Header*/
+.about-section-header{
+    text-align: right;
+    padding-bottom: 10rem;
+    transform: translate(70% , 50%);
+}
+
+.about-section-header .section-border::after{
+    left: auto;
+    right: 0;
+    transform: translateX(0);
+}
+/*End of About Header*/
+
+/*Feature*/
+.about-page-feature{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 60%;
+}
+
+.feature{
+    width: 20rem;
+    height: 20rem;
+    background-color: #181818;
+    margin:3rem;
+    border-radius: 3rem;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.feature:nth-child(2),
+.feature:nth-child(6)
+{
+    transform: translateY(6rem);
+}
+
+.feature:nth-child(3),
+.feature:nth-child(7)
+{
+    transform: translateY(12rem);
+}
+
+.feature:nth-child(4),
+.feature:nth-child(8)
+{
+    transform: translateY(18rem);
+}
+
+.feature::before{
+    content: "";
+    width: 15rem;
+    height: 15rem;
+    background-color: #1f1f1f1f;
+    border-radius: 50%;
+    position: absolute;
+    top: -40%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0.7;
+}
+
+.feature span{
+    z-index: 1;
+    font-size: 6rem;
+    color: #32b0ce;
+}
+
+.feature h3{
+    font-size: 1.8rem;
+    font-weight: 300;
+    color: #ffffff;
+    width: 70%;
+    text-align: center;
+}
+/*End of Feature*/
+
+/*Footer-about*/
+.footer-about{
+    margin-top: 0rem;
+}
+
+.footer-about .footer-header{
+    text-align: right;
+    transform: translateX(80%);
+}
+
+.footer-about .footer-header .section-border::after{
+    right: 0;
+    left: auto;
+    transform: translateX(-50%);
+}
