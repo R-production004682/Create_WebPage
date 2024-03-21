@@ -10,14 +10,17 @@
         <link href="https://fonts.googleapis.com/css2?family=Brygada+1918:ital,wght@0,400..700;1,400..700&family=Cinzel:wght@400..900&family=Cormorant:ital,wght@0,300..700;1,300..700&family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet"> 
     </head>
-<body>
+<body class="body">
+    <!--Loader-->
+    <div class="loader-wrapper">
+        <div class="loader"></div>
+    </div>
+    <!--End ofLoader-->
     <div id="mouse-stalker"></div>
+    <canvas id="canvas"></canvas>
 
-    <!--背景アニメーション-->
-
-</div>
     <!--Container-->
-    <div class="content">
+    <div class="content main-container">
         <!--Navigation-->
         <!--Menu Icon-->
         <div class="menu-icon">
@@ -47,8 +50,7 @@
         <!--End of Navigation-->
 
         <!--Header-->
-        <header>
-            <canvas id="canvas"></canvas>
+        <header>  
             <!--Logo-->
             <a href="index.html" class="logo">
                 <span>Contents</span>
@@ -80,15 +82,15 @@
                     <h4 class="section-heading-sm">About Me</h4>
                     <h1 class="section-heading-lg">Who Are Me?</h1>
                     <div class="section-border"></div>
-                        <p>初めに、ポートフォリオをご閲覧くださりありがとうございます。<br>
+                        <p class="text1">初めに、ポートフォリオをご閲覧くださりありがとうございます。<br>
                             ゲームプログラマ兼サーバーエンジニアの桑折 怜輔です。</p>
 
-                        <p>私はゲームプログラマとして、世界的な市場価値を持つプロフェッショナルになることを目指し、日々開発に取り組んでいます。<br>
+                        <p class="text2">私はゲームプログラマとして、世界的な市場価値を持つプロフェッショナルになることを目指し、日々開発に取り組んでいます。<br>
                         元々フロントエンド開発が得意でしたが、<br>
                         バックエンドのスキルも身につけたいと考え、4月からゲームのサーバー会社に入社しました。<br>
                         これからも努力を怠らず、より優れたプログラマに成長していきます。<br>
                         また、エンターテイナーとしての心得を忘れず、ユーザーに最高の物語を提供することを心がけます。</p>
-                        <p>
+                        <p class="text3">
                         さらに、必須スキルや業界で用いられる言語にとどまらず、<br>
                         積極的に新しい技術や言語に挑戦し、その柔軟性と汎用性を高めて、<br>
                         必要な時に適切に最高品質で対応できる高度なプログラマとなることも同時に目指しています。</p>
@@ -107,12 +109,13 @@
                         <div class="section-border"></div>
                     </div>
                     <div class="section-num">
-                        <span>02</span>
+                        <span class="product-section-num">02</span>
                     </div>
                 </div>
 
                 <p>最近作成した作品を掲載しています。<br>
-                画像をクリックすることで、Youtubeへジャンプします。ぜひご覧ください。</p>
+                画像をクリックすることで、Youtubeへジャンプします。<br>
+                ぜひご覧ください。</p>
 
                 <!--作品を差し替えるときに変更するところ。画像データを差し込んで、作品名を記載するだけ-->
                 <div class="production-list">
@@ -163,7 +166,8 @@
         </div>
 
         <p>チームで開発した作品を一部掲載しています。<br>
-        画像をクリックすることで、Youtubeへジャンプします。ぜひご覧ください。</p>
+        画像をクリックすることで、Youtubeへジャンプします。<br>
+        ぜひご覧ください。</p>
 
         <!--作品を差し替えるときに変更するところ。画像データを差し込んで、作品名を記載するだけ-->
         <div class="production-list">
@@ -216,7 +220,7 @@
     </div>
 
     <div class="name-heading">
-        <h2><span>桑折 怜輔(こおり りょうすけ)</span></h2>
+        <h2><span>桑折 怜輔</span></h2>
 
     <p>
         2002年4月  : 宮城県仙台市にて出生。<br>
@@ -236,15 +240,19 @@
     
 </div>
 
+<div class="selfIntroduction-button">
     <button class="main-btn">
         <a href="SelfIntroduction.html">Learn More</a>
     </button>
+</div>
+
+    
 </section>
 <!--End of Self Introduction-->
 
 
 <!--Footer-->
-<footer>
+<footer id="contact">
     <div class="footer-header">
         <h4 class="section-heading-sm">Get in Touch</h4>
         <h1 class="section-heading-lg">Contact Me</h1>

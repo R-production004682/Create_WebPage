@@ -211,4 +211,56 @@
         width: 30rem;
     }
 }
+
+@media(max-width: 430px){
+    .self-Introduction{
+        width: 65%;
+        height: 65rem;
+    }
+
+    .slide-bg{
+        width:85%;
+        height: 95%;
+    }
+
+    .slide-content{
+        width: 85%;
+        height: 95%;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .slide i{
+        font-size: 7rem;   
+    }
+
+    .slide i:nth-child(1){
+        top: -5%;
+    }
+
+    .slide i:nth-child(2){
+        bottom: -5%;
+    }
+
+    .slide-img{
+        width: 75%;
+        height: 16rem;
+        margin-right: 0;
+    }
+
+    .slide-text{
+        width: 100%;
+    }
+
+    .slide-text p{
+        font-size: 1.3rem;
+        width: 25rem;
+    }
+}
+
+@media(max-width:375px){
+    .self-introduction-section{
+        height: 130vh;
+    }
+}
 /*End of Responsive*/
