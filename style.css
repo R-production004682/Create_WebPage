@@ -1323,6 +1323,41 @@ textarea{
         margin-bottom: 10rem;
     }
 
+    @media (max-width: 414px){
+        html{
+            font-size: 40%;
+        }
+
+        .text1{
+            position: absolute;
+            top: 140%;
+            left: 42%;
+            transform: translateX(-50%);
+            text-align: center;
+        }
+    
+        .text2{
+            position: absolute;
+            top: 150%;
+            left: 42%;
+            transform: translateX(-50%);
+            text-align: center;
+        }
+    
+        .text3{
+            position: absolute;
+            top: 175%;
+            left: 42%;
+            transform: translateX(-50%);
+            text-align: center;
+        }
+    
+        .about .main-btn{
+            top: 190%;
+            left: 42%;
+        }
+    }
+
     @media (max-width: 393px) {
         html{
             font-size: 38%;
