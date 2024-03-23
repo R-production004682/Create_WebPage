@@ -1446,12 +1446,8 @@ textarea{
             margin-left: -10%;
         }
 
-        #section4-heading{
-            margin-left: -10%;
-        }
-
         .text1{
-            top: 130%;
+            top: 125%;
             left: 60%;
 
             text-align: left;
@@ -1459,20 +1455,20 @@ textarea{
     
         .text2{
 
-            top: 139%;
+            top: 134%;
             left: 60%;
 
             text-align: left;
         }
     
         .text3{
-            top: 165%;
+            top: 162%;
             left: 60%;
             text-align: left;
         }
     
         .about .main-btn{
-            top: 180%;
+            top: 182%;
         }
 
 
@@ -1485,7 +1481,7 @@ textarea{
         }
 
         .selfIntroduction-button .main-btn{
-            margin-top: 0%;
+            margin-top: 80%;
         }
     }
 }
