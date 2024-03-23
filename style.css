@@ -1416,37 +1416,49 @@ textarea{
         }
     }
 
-    @media(min-width: 375px){
+    @media(max-width: 375px){
         html{
             font-size: 36%;   
         }
 
+        .banner{
+            transform: translateX(50%);
+        }
+
+        .banner h3{
+            margin-left : -10%;
+            margin-bottom: 10%;
+        }
+
         .text1{
             position: absolute;
-            top: auto;
+            top: 135%;
             transform: translateX(-50%);
             text-align: center;
         }
     
         .text2{
             position: absolute;
-            top: 158%;
+            top: 144%;
             transform: translateX(-50%);
             text-align: center;
         }
     
         .text3{
             position: absolute;
-            top: 189%;
+            top: 170%;
             transform: translateX(-50%);
             text-align: center;
         }
     
         .about .main-btn{
-            top: 205%;
-            margin-left: 5%;
+            top: 190%;
         }
 
+        .main-btn{
+            margin-left: 5%;
+        }
+        
         .self-introduction{
             height: 150vh;
         }
