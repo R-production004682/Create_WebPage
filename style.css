@@ -1433,21 +1433,18 @@ textarea{
         .text1{
             position: absolute;
             top: 135%;
-            transform: translateX(-50%);
             text-align: left;
         }
     
         .text2{
             position: absolute;
             top: 144%;
-            transform: translateX(-50%);
             text-align: left;
         }
     
         .text3{
             position: absolute;
             top: 170%;
-            transform: translateX(-50%);
             text-align: left;
         }
     
