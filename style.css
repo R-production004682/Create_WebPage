@@ -1434,21 +1434,21 @@ textarea{
             position: absolute;
             top: 135%;
             transform: translateX(-50%);
-            text-align: center;
+            text-align: left;
         }
     
         .text2{
             position: absolute;
             top: 144%;
             transform: translateX(-50%);
-            text-align: center;
+            text-align: left;
         }
     
         .text3{
             position: absolute;
             top: 170%;
             transform: translateX(-50%);
-            text-align: center;
+            text-align: left;
         }
     
         .about .main-btn{
@@ -1458,7 +1458,7 @@ textarea{
         .main-btn{
             margin-left: 5%;
         }
-        
+
         .self-introduction{
             height: 150vh;
         }
