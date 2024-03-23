@@ -1430,30 +1430,36 @@ textarea{
             margin-bottom: 10%;
         }
 
+        #section1{
+            margin-top: -50%;
+        }
+
+        #section1-heading{
+            margin-top: -25%;
+        }
+
         .text1{
-            position: absolute;
-            top: 135%;
-            transform: translateX(-50%);
+            top: 130%;
+            left: 60%;
             text-align: left;
         }
     
         .text2{
-            position: absolute;
-            top: 144%;
-            transform: translateX(-50%);
+            top: 139%;
+            left: 60%;
             text-align: left;
         }
     
         .text3{
-            position: absolute;
-            top: 170%;
-            transform: translateX(-50%);
+            top: 164%;
+            left: 60%;
             text-align: left;
         }
     
         .about .main-btn{
-            top: 190%;
+            top: 180%;
         }
+
 
         .main-btn{
             margin-left: 5%;
@@ -1463,8 +1469,12 @@ textarea{
             height: 150vh;
         }
 
-        .production-list .production{
-            margin-left: 20%;
+        .selfIntroduction-button .main-btn{
+            margin-top: 30%;
+        }
+
+        #contact{
+            transform : translateY(-70rem);
         }
     }
 }
