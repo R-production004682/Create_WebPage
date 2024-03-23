@@ -1434,8 +1434,16 @@ textarea{
             margin-top: -50%;
         }
 
+        #section4{
+            margin-left: 10%;
+        }
+
         #section1-heading{
             margin-top: -25%;
+        }
+
+        #section4-heading{
+            margin-left: -10%;
         }
 
         .text1{
@@ -1474,10 +1482,6 @@ textarea{
 
         .selfIntroduction-button .main-btn{
             margin-top: 30%;
-        }
-
-        #contact{
-            transform : translateY(-70rem);
         }
     }
 }
