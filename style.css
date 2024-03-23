@@ -1439,35 +1439,23 @@ textarea{
         }
 
         .text1{
-<<<<<<< HEAD
             top: 130%;
             left: 60%;
-=======
-            position: absolute;
-            top: 135%;
->>>>>>> origin/master
+
             text-align: left;
         }
     
         .text2{
-<<<<<<< HEAD
+
             top: 139%;
             left: 60%;
-=======
-            position: absolute;
-            top: 144%;
->>>>>>> origin/master
+
             text-align: left;
         }
     
         .text3{
-<<<<<<< HEAD
             top: 164%;
             left: 60%;
-=======
-            position: absolute;
-            top: 170%;
->>>>>>> origin/master
             text-align: left;
         }
     
