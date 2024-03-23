@@ -1432,6 +1432,7 @@ textarea{
 
         #section1{
             margin-top: -70%;
+            margin-left: 10%;
         }
 
         #section4{
@@ -1440,7 +1441,6 @@ textarea{
 
         #section1-heading{
             margin-top: -35%;
-            margin-left: -15%;
         }
 
         #section4-header{
@@ -1448,7 +1448,7 @@ textarea{
         }
 
         .text1{
-            top: 151%;
+            top: 145%;
             left: 60%;
 
             text-align: left;
@@ -1456,20 +1456,20 @@ textarea{
     
         .text2{
 
-            top: 160%;
+            top: 154%;
             left: 60%;
 
             text-align: left;
         }
     
         .text3{
-            top: 192%;
+            top: 186%;
             left: 60%;
             text-align: left;
         }
     
         .about .main-btn{
-            top: 207%;
+            top: 200%;
         }
 
 
