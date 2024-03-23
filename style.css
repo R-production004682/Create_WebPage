@@ -1447,7 +1447,7 @@ textarea{
         }
 
         .text1{
-            top: 142%;
+            top: 151%;
             left: 60%;
 
             text-align: left;
@@ -1455,20 +1455,20 @@ textarea{
     
         .text2{
 
-            top: 151%;
+            top: 160%;
             left: 60%;
 
             text-align: left;
         }
     
         .text3{
-            top: 175%;
+            top: 184%;
             left: 60%;
             text-align: left;
         }
     
         .about .main-btn{
-            top: 190%;
+            top: 200%;
         }
 
 
@@ -1481,7 +1481,7 @@ textarea{
         }
 
         .selfIntroduction-button .main-btn{
-            margin-top: 130%;
+            margin-top: 160%;
         }
     }
 }
