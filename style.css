@@ -1418,7 +1418,7 @@ textarea{
 
     @media(max-width: 375px){
         html{
-            font-size: 36%;   
+            font-size: 35%;   
         }
 
         .banner{
@@ -1442,6 +1442,10 @@ textarea{
             margin-top: -25%;
         }
 
+        #section4-header{
+            margin-left: -10%;
+        }
+
         #section4-heading{
             margin-left: -10%;
         }
@@ -1462,7 +1466,7 @@ textarea{
         }
     
         .text3{
-            top: 164%;
+            top: 165%;
             left: 60%;
             text-align: left;
         }
@@ -1481,7 +1485,7 @@ textarea{
         }
 
         .selfIntroduction-button .main-btn{
-            margin-top: 30%;
+            margin-top: 0%;
         }
     }
 }
