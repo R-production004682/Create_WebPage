@@ -259,6 +259,12 @@
 }
 
 @media(max-width:375px){
+    .self-introduction-section{
+        height: 130vh;
+    }
+}
+
+@media(max-width: 375px){
     .self-Introduction{
         width: 65%;
         height: 65rem;
