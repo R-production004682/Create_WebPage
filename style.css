@@ -876,8 +876,13 @@ footer{
 .social-media{
     font-size: 2.2rem;
     color: #ffffff;
-    margin-right: -45rem;
+    margin-right: -20rem;
     cursor: pointer;
+    margin-bottom: 20%;
+}
+
+.social-media span{
+    color: #32b0ce;
 }
 
 .footer-form{
@@ -1358,20 +1363,28 @@ textarea{
         }
     }
 
-    @media (max-width: 393px) {
-        html{
-            font-size: 38%;
-        }
-    }
-
-    @media(max-width: 375px){
+    @media (max-width: 390px) {
         html{
             font-size: 36%;   
         }
 
+        .logo{
+            left: 2rem;
+            }
+    
+        .banner{
+            transform: translateX(34%);
+        }
+
+        .banner h3{
+            margin-left : -10%;
+        }
+
+
+
         .text1{
             position: absolute;
-            top: 125%;
+            top: 138%;
             left: 50%;
             transform: translateX(-50%);
             text-align: center;
@@ -1379,7 +1392,7 @@ textarea{
     
         .text2{
             position: absolute;
-            top: 135%;
+            top: 147%;
             left: 50%;
             transform: translateX(-50%);
             text-align: center;
@@ -1387,18 +1400,59 @@ textarea{
     
         .text3{
             position: absolute;
-            top: 165%;
+            top: 171%;
             left: 50%;
             transform: translateX(-50%);
             text-align: center;
         }
     
         .about .main-btn{
-            top: 183%;
+            top: 185%;
+            margin-left: 7%;
         }
 
         .self-introduction{
             height: 150vh;
+        }
+    }
+
+    @media(min-width: 375px){
+        html{
+            font-size: 36%;   
+        }
+
+        .text1{
+            position: absolute;
+            top: auto;
+            transform: translateX(-50%);
+            text-align: center;
+        }
+    
+        .text2{
+            position: absolute;
+            top: 158%;
+            transform: translateX(-50%);
+            text-align: center;
+        }
+    
+        .text3{
+            position: absolute;
+            top: 189%;
+            transform: translateX(-50%);
+            text-align: center;
+        }
+    
+        .about .main-btn{
+            top: 205%;
+            margin-left: 5%;
+        }
+
+        .self-introduction{
+            height: 150vh;
+        }
+
+        .production-list .production{
+            margin-left: 20%;
         }
     }
 }
