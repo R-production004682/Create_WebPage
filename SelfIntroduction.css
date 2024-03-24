@@ -260,7 +260,7 @@
 
 @media(max-width : 414px){
     .self-Introduction{
-        width: 100%;
+        width: 100rem;
         height: 65%;
         margin-top: 35%;
     }
