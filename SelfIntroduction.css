@@ -260,31 +260,30 @@
 
 @media(max-width : 414px){
     .self-Introduction{
-        margin-top: 35%;
+        margin-top: 25%;
     }
 
     .slider{
-        width: 600%;
-        height: 120%;
-        
+        width: 800%;
+        height: 100%;
     }
 
     .slide-img{
-        margin-left: -50%;
+        margin-left: 0%;
         width: 80%;
     }
 
     .slide-img::before{
-        width: 120%;
+        width: 80%;
     }
 
     .slide-img::after{
-        width: 120%;
+        width: 80%;
     }
 
     .slide-img img{
         align-items: left;
-        width: 100%;
+        width: 80%;
     }
 
     .slide-text h3{
@@ -293,7 +292,7 @@
 
     .slide-text p{
         text-align: left;
-        margin-left: -35%;
+        margin-left: 0%;
 
     }
 }
