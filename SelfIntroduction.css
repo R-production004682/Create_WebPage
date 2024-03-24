@@ -260,10 +260,27 @@
 
 @media(max-width : 414px){
     .self-Introduction{
-        width: 100rem;
-        height: 65%;
         margin-top: 35%;
+        
     }
+    .slide-bg{
+        height: 110%;
+        width: 110%;
+    }
+
+    .slide-content{
+        height: 100%;
+        width: 100%;
+    }
+
+    .slide-img{
+        width: 100%;
+        height: 16rem;
+        margin-right: 0;
+    }
+
+
+
 }
 
 
