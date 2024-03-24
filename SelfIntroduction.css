@@ -260,7 +260,10 @@
 
 @media(max-width : 414px){
     .self-Introduction{
-        margin-top: -50%;
+        margin-top: 35%;
+        
+        width: 5%;
+        height: 5%;
     }
 }
 
