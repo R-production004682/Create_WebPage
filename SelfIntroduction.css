@@ -261,8 +261,8 @@
 @media(max-width : 414px){
 
     .slider{
-        width: 400%;
-        height: 50%;
+        width: 450%;
+        height: 100%;
     }
 
     .slide-bg{
