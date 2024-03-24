@@ -271,8 +271,18 @@
         justify-content: center;
     }
 
-    .slide-text{
+    .slide-img{
+        margin-left: -50%;
+    }
+
+    .slide-text h3{
+        text-align: center;
+    }
+
+    .slide-text p{
         text-align: left;
+        margin-left: -15%;
+
     }
 }
 
