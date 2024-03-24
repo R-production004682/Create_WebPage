@@ -259,16 +259,19 @@
 }
 
 @media(max-width : 414px){
-    .self-Introduction{
-        margin-top: 25%;
+
+    .slider{
+        width: 400%;
         height: 50%;
     }
 
-    .slider{
-        width: 800%;
-        height: 80%;
+    .slide-bg{
+        transform : translateX(5%);
+        transform: translate(-40% , 10%) rotateZ(-12deg);
+    }
 
-        margin-left: -30%;
+    .slide-content{
+        transform: translate(-40% , 10%);
     }
     
 
@@ -277,11 +280,11 @@
     }
 
     .slide-img::before{
-        width: 80%;
+        width: 60%;
     }
 
     .slide-img::after{
-        width: 60%;
+        width: 70%;
     }
 
     .slide-img img{
