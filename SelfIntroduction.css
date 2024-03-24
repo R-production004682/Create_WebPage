@@ -262,21 +262,13 @@
     .self-Introduction{
         margin-top: 35%;
     }
-
-    .slide-bg{
-        justify-content: center;
-    }
-
-    .slide{
-        justify-content: center;
-    }
     .slide-img{
         margin-left: -50%;
         width: 100%;
     }
 
     .slide-img img{
-        margin-left: 0%;
+        align-items: left;
         width: 100%;
     }
 
@@ -286,7 +278,7 @@
 
     .slide-text p{
         text-align: left;
-        margin-left: -25%;
+        margin-left: -35%;
 
     }
 }
