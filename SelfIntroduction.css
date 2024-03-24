@@ -262,6 +262,13 @@
     .self-Introduction{
         margin-top: 35%;
     }
+
+    .slider{
+        width: 600%;
+        height: 120%;
+        
+    }
+
     .slide-img{
         margin-left: -50%;
         width: 80%;
