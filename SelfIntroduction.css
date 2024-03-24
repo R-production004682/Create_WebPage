@@ -270,9 +270,13 @@
     .slide{
         justify-content: center;
     }
-
     .slide-img{
         margin-left: -50%;
+        width: 100%;
+    }
+
+    .slide-img img{
+        margin-left: 0%;
         width: 100%;
     }
 
@@ -282,7 +286,7 @@
 
     .slide-text p{
         text-align: left;
-        margin-left: -21%;
+        margin-left: -25%;
 
     }
 }
