@@ -264,7 +264,15 @@
     }
     .slide-img{
         margin-left: -50%;
-        width: 100%;
+        width: 80%;
+    }
+
+    .slide-img::before{
+        width: 120%;
+    }
+
+    .slide-img::after{
+        width: 120%;
     }
 
     .slide-img img{
