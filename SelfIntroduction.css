@@ -260,52 +260,25 @@
 
 @media(max-width : 414px){
     .self-Introduction{
-        width: 65%;
-        height: 65rem;
+        margin-top: 35%;
     }
 
     .slide-bg{
-        width:85%;
-        height: 95%;
+        justify-content: center;
     }
 
-    .slide-content{
-        width: 85%;
-        height: 95%;
-        flex-direction: column;
-        justify-content: space-evenly;
-    }
-
-    .slide i{
-        font-size: 7rem;   
-    }
-
-    .slide i:nth-child(1){
-        top: -5%;
-    }
-
-    .slide i:nth-child(2){
-        bottom: -5%;
-    }
-
-    .slide-img{
-        width: 75%;
-        height: 16rem;
-        margin-right: 0;
+    .slide{
+        justify-content: center;
     }
 
     .slide-text{
-        width: 100%;
-    }
-
-    .slide-text p{
-        font-size: 1.3rem;
-        width: 25rem;
+        text-align: left;
     }
 }
 
 @media(max-width: 375px){
     .self-Introduction{
+        
         width: 65%;
         height: 65rem;
     }
