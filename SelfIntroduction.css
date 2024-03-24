@@ -29,16 +29,6 @@
     margin: 0 0.5rem;
 }
 
-.self-Introduction{
-    width : 55%;
-    height: 50rem;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50% , -50%);
-    border: 0.1rem solid #fff;
-}
-
 .slider{
     width: 500%;
     height: 100%;
@@ -261,8 +251,9 @@
 @media(max-width : 414px){
 
     .slider{
+        
         width: 450%;
-        height: 60%;
+        height: 65%;
     }
 
     .slide-bg{
