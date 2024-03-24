@@ -1333,6 +1333,10 @@ textarea{
             font-size: 40%;
         }
 
+        header .banner{
+            top: 50%;
+        }
+
         .text1{
             position: absolute;
             top: 140%;
