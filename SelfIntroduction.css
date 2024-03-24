@@ -273,6 +273,7 @@
 
     .slide-img{
         margin-left: -50%;
+        width: 100%;
     }
 
     .slide-text h3{
@@ -281,7 +282,7 @@
 
     .slide-text p{
         text-align: left;
-        margin-left: -15%;
+        margin-left: -21%;
 
     }
 }
