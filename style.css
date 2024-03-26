@@ -1333,8 +1333,30 @@ textarea{
         }
 
         header .banner{
-            top: 50%;
+            top: 50rem;
         }
+
+        .logo{
+            left: 2rem;
+        }
+    
+        .banner{
+            transform: translateX(34%);
+        }
+
+        .banner h3{
+            text-align: center;
+            margin: 0.1rem;
+        }
+
+        .banner h1{
+            margin: 0.1rem;
+        }
+
+        .banner h4{
+            text-align: center;
+        }
+
 
         .text1{
             position: absolute;
@@ -1373,7 +1395,7 @@ textarea{
 
         .logo{
             left: 2rem;
-            }
+        }
     
         .banner{
             transform: translateX(34%);
